@@ -1,0 +1,1 @@
+Put the Kaggle memotion-dataset-7k zip (or unzipped folder) here.

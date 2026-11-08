@@ -1,0 +1,17 @@
+# dataset (download it yourself - see README)
+data/*
+!data/PUT_DATASET_HERE.txt
+
+# large / machine-specific outputs (figures and tables ARE committed)
+outputs/cache/
+outputs/*.tgz
+outputs_for_report.zip
+
+# debugging leftovers
+crash_log.txt
+debug_features.py
+
+# Python / Jupyter / macOS
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
