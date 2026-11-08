@@ -1,0 +1,262 @@
+{
+ "retrieval": {
+  "n": 1000,
+  "top1": 0.726,
+  "top5": 0.863,
+  "chance_top1": 0.001,
+  "cos_own_pair": 0.32098257541656494,
+  "cos_shuffled_pair": 0.19438573718070984
+ },
+ "probe": [
+  {
+   "target": "Sentiment: negative vs rest",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.0902589043055357,
+   "auc_mean": 0.5109552696628094,
+   "auc_std": 0.002324290583978761
+  },
+  {
+   "target": "Sentiment: negative vs rest",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.0902589043055357,
+   "auc_mean": 0.5246170723320276,
+   "auc_std": 0.0030572541338994563
+  },
+  {
+   "target": "Sentiment: negative vs rest",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.0902589043055357,
+   "auc_mean": 0.5010669896042022,
+   "auc_std": 0.0022396316119965565
+  },
+  {
+   "target": "Sentiment: negative vs rest",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.0902589043055357,
+   "auc_mean": 0.5172025909756899,
+   "auc_std": 0.006819002980195166
+  },
+  {
+   "target": "Sentiment: positive vs rest",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.5949077385209555,
+   "auc_mean": 0.497323762163058,
+   "auc_std": 0.0026666863639265848
+  },
+  {
+   "target": "Sentiment: positive vs rest",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.5949077385209555,
+   "auc_mean": 0.5068741739037116,
+   "auc_std": 0.005883537573542097
+  },
+  {
+   "target": "Sentiment: positive vs rest",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.5949077385209555,
+   "auc_mean": 0.5068205583018517,
+   "auc_std": 0.0014092880051838064
+  },
+  {
+   "target": "Sentiment: positive vs rest",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.5949077385209555,
+   "auc_mean": 0.5025659501618571,
+   "auc_std": 0.0037186219253595443
+  },
+  {
+   "target": "Sentiment: very pos. vs very neg.",
+   "features": "CLIP image",
+   "n": 1184,
+   "pos_rate": 0.8724662162162162,
+   "auc_mean": 0.5039138880519031,
+   "auc_std": 0.008167556720924729
+  },
+  {
+   "target": "Sentiment: very pos. vs very neg.",
+   "features": "CLIP text",
+   "n": 1184,
+   "pos_rate": 0.8724662162162162,
+   "auc_mean": 0.501157177384715,
+   "auc_std": 0.011299308257951168
+  },
+  {
+   "target": "Sentiment: very pos. vs very neg.",
+   "features": "RoBERTa text",
+   "n": 1184,
+   "pos_rate": 0.8724662162162162,
+   "auc_mean": 0.4849022008808652,
+   "auc_std": 0.008712487899322358
+  },
+  {
+   "target": "Sentiment: very pos. vs very neg.",
+   "features": "CLIP image+text",
+   "n": 1184,
+   "pos_rate": 0.8724662162162162,
+   "auc_mean": 0.5365039779976023,
+   "auc_std": 0.002820820217587783
+  },
+  {
+   "target": "Motivational",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.3527392361607781,
+   "auc_mean": 0.510769403108799,
+   "auc_std": 0.005238940194378372
+  },
+  {
+   "target": "Motivational",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.3527392361607781,
+   "auc_mean": 0.5206942596102575,
+   "auc_std": 0.002995434035479194
+  },
+  {
+   "target": "Motivational",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.3527392361607781,
+   "auc_mean": 0.5068162367311457,
+   "auc_std": 0.00031773556837072503
+  },
+  {
+   "target": "Motivational",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.3527392361607781,
+   "auc_mean": 0.5092649200396104,
+   "auc_std": 0.005041021987426786
+  },
+  {
+   "target": "Offensive (very/hateful)",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.24116721499070234,
+   "auc_mean": 0.5196962455124701,
+   "auc_std": 0.0014620878488142974
+  },
+  {
+   "target": "Offensive (very/hateful)",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.24116721499070234,
+   "auc_mean": 0.514252792023461,
+   "auc_std": 0.0031532898863289582
+  },
+  {
+   "target": "Offensive (very/hateful)",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.24116721499070234,
+   "auc_mean": 0.5035785640574986,
+   "auc_std": 0.007206824958660485
+  },
+  {
+   "target": "Offensive (very/hateful)",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.24116721499070234,
+   "auc_mean": 0.5178252907181502,
+   "auc_std": 0.0017843906071288163
+  },
+  {
+   "target": "Humour: not funny",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.23616077814332714,
+   "auc_mean": 0.5442811302649398,
+   "auc_std": 0.001043630350009206
+  },
+  {
+   "target": "Humour: not funny",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.23616077814332714,
+   "auc_mean": 0.5138665818242036,
+   "auc_std": 0.0007156030733841967
+  },
+  {
+   "target": "Humour: not funny",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.23616077814332714,
+   "auc_mean": 0.5186989725895326,
+   "auc_std": 0.0038348679837664768
+  },
+  {
+   "target": "Humour: not funny",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.23616077814332714,
+   "auc_mean": 0.5331988387471445,
+   "auc_std": 0.0007530052153161271
+  },
+  {
+   "target": "Sarcasm: not sarcastic",
+   "features": "CLIP image",
+   "n": 6991,
+   "pos_rate": 0.22085538549563724,
+   "auc_mean": 0.5040058652811692,
+   "auc_std": 0.0006251361447238701
+  },
+  {
+   "target": "Sarcasm: not sarcastic",
+   "features": "CLIP text",
+   "n": 6991,
+   "pos_rate": 0.22085538549563724,
+   "auc_mean": 0.4982459327804153,
+   "auc_std": 0.0020906241111949553
+  },
+  {
+   "target": "Sarcasm: not sarcastic",
+   "features": "RoBERTa text",
+   "n": 6991,
+   "pos_rate": 0.22085538549563724,
+   "auc_mean": 0.4986351640062362,
+   "auc_std": 0.003811933364470249
+  },
+  {
+   "target": "Sarcasm: not sarcastic",
+   "features": "CLIP image+text",
+   "n": 6991,
+   "pos_rate": 0.22085538549563724,
+   "auc_mean": 0.4987019284275891,
+   "auc_std": 0.001242840808887563
+  }
+ ],
+ "agreement": [
+  {
+   "pair_type": "Image cosine \u2265 0.98",
+   "n_pairs": 45,
+   "same_label_pct": 60.0,
+   "chance_pct": 46.11819299476955
+  },
+  {
+   "pair_type": "Image cosine \u2265 0.95",
+   "n_pairs": 62,
+   "same_label_pct": 54.83870967741935,
+   "chance_pct": 46.11819299476955
+  },
+  {
+   "pair_type": "Image cosine \u2265 0.9",
+   "n_pairs": 268,
+   "same_label_pct": 53.35820895522389,
+   "chance_pct": 46.11819299476955
+  },
+  {
+   "pair_type": "Identical text",
+   "n_pairs": 81,
+   "same_label_pct": 54.32098765432099,
+   "chance_pct": 46.11819299476955
+  }
+ ]
+}

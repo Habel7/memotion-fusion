@@ -1,0 +1,6 @@
+,a_right_b_wrong,a_wrong_b_right,p_value
+Early fusion (CLIP img + RoBERTa) vs Late fusion (CLIP img + RoBERTa),160.0,153.0,0.7345647367552778
+Attention fusion (CLIP img + RoBERTa) vs Early fusion (CLIP img + RoBERTa),120.0,220.0,6.415388921165032e-08
+Attention fusion (CLIP img + RoBERTa) vs Text only (CLIP),168.0,254.0,3.308748166032923e-05
+Late fusion (CLIP img + RoBERTa) vs Text only (CLIP),193.0,186.0,0.75797754695981
+Late fusion (CLIP img + RoBERTa) vs Image only (CLIP),264.0,184.0,0.00018294062815709175
